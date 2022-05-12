@@ -7,7 +7,7 @@ box-sizing: border-box;
 }
 
 .div-all{
-    background-image:url(./imges/bg99.jpg);
+    background-image:url(bg99.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
