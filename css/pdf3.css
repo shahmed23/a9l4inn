@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+
+}
+
+html {
+    box-sizing: border-box;
+    min-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #136a8a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    min-width: 100%;
+
+   
+
+}
+
+span {
+    display: block;
+
+    color: azure;
+    border: 4px solid burlywood;
+    font-size: larger;
+    font-weight: 600;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(51, 79, 136);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+
+div{
+width: 80%;
+/* min-height: 100vh; */
+margin-right: auto;
+margin-left: auto;
+    box-shadow: 2px 3px 8px 5px rgb(82, 212, 252);
+    text-align: center;
+    border-radius: 21px;
+    width: 98%;
+/* min-height: 100vh; */
+margin-right: auto;
+margin-left: auto;
+    box-shadow: 2px 3px 8px 5px rgb(82, 212, 252);
+    text-align: center;
+    border-radius: 21px;
+
+
+}
+
+
+
+p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    margin-top: 20%;
+    padding: 15px;
+
+}
+
+a {
+
+    display: block;
+    border: 3px solid rgba(243, 113, 6, 0.836);
+    width: 25%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size:large;
+    background-color: rgba(24, 4, 61, 0.664);
+    color: white;
+    transition: 1s;
+}
+@media screen and (max-width:450px){
+
+
+a{
+    width: 80%;
+}
+
+
+
+span{
+
+    width: 88%;
+    font-size: medium;
+}
+
+
+
+}
