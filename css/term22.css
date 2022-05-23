@@ -12,13 +12,10 @@
 
 body {
 
-    background: #EB5757;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000, #EB5757);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #eb5757ec);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #EB5757;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #eb5757ec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
 }
 
@@ -61,7 +58,7 @@ body {
 span {
     display: block;
 
-    color: white;
+    color:white;
     border: 3px solid burlywood;
     font-size: larger;
     font-weight: 600;
@@ -98,19 +95,19 @@ h4 {
 
 }
 
-a {
+a{
 
-    color: white;
-    font-size: large;
-    font-weight: 400;
-    border: 2px solid gold;
-    background-color: rgb(4, 112, 112);
-    padding: 8px 12px;
-    border-radius: 15px;
-    display: block;
-    width: 20%;
-    margin: 10px auto;
-    animation: 1.5s;
+color: white;
+font-size: large;
+font-weight: 400;
+border: 2px solid gold;
+background-color: rgb(4, 112, 112);
+padding: 8px 12px;
+border-radius: 15px;
+display: block;
+width: 20%;
+margin: 10px auto;
+animation: 1.5s;
 
 }
 
@@ -130,8 +127,8 @@ a:hover {
 
     span {
         display: block;
-
-        color: white;
+    
+        color:white;
         border: 4px solid burlywood;
         font-size: larger;
         font-weight: 600;
@@ -142,51 +139,49 @@ a:hover {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-
-
+    
+    
     }
-
-    .div-pdf {
+    .div-pdf{
         width: 90%;
     }
 
     .h-zhra {
-        font-size: medium;
+        font-size:medium;
         background-color: rgba(247, 11, 148, 0.712);
         width: 60%;
     }
 
-
-    h4 {
-        color: white;
-        font-size: medium;
-        font-weight: 700;
-        border: 4px solid khaki;
-        margin-bottom: 25px;
-        margin-top: 15px;
-        width: 95%;
-        padding: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        background-color: rgba(20, 70, 90, 0.507);
-        ;
-
-
-
-    }
-
-    a:hover {
-
-        background-color: #29abdf;
-        color: black;
-        font-weight: 900;
-        width: 50%;
-        border: 2px solid rgba(247, 11, 148, 0.712);
-    }
+    
+h4 {
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border: 4px solid khaki;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 95%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgba(20, 70, 90, 0.507);
+    ;
 
 
-    a {
-        width: 55%;
-    }
+
+}
+a:hover {
+
+    background-color: #29abdf;
+    color: black;
+    font-weight: 900;
+    width: 50%;
+    border: 2px solid rgba(247, 11, 148, 0.712);
+}
+
+
+a{
+    width: 55%;
+}
 }
