@@ -118,7 +118,7 @@ a:hover {
     background-color: #29abdf;
     color: black;
     font-weight: 900;
-    width: 30%;
+    width: 35%;
     border: 2px solid rgba(247, 11, 148, 0.712);
 }
 
@@ -176,12 +176,23 @@ a:hover {
     background-color: #29abdf;
     color: black;
     font-weight: 900;
-    width: 70%;
+    width: 80%;
     border: 2px solid rgba(247, 11, 148, 0.712);
 }
 
 
 a{
-    width: 75%;
+    width: 80%;
 }
+
+a{
+
+width:80% ;
+
+}
+
+
+
+
+
 }
