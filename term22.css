@@ -107,7 +107,7 @@ border-radius: 15px;
 display: block;
 width: 30%;
 margin: 10px auto;
-animation: 1.5s;
+animation: 2.5s;
 
 }
 
@@ -115,10 +115,10 @@ animation: 1.5s;
 
 a:hover {
 
-    background-color: #29abdf;
+    background-color: #44afda;
     color: black;
     font-weight: 900;
-    width: 35%;
+    width: 32%;
     border: 2px solid rgba(247, 11, 148, 0.712);
 }
 
