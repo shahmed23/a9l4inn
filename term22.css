@@ -129,14 +129,14 @@ a:hover {
     span {
         display: block;
     
-        color:white;
+        color:black;
         border: 4px solid burlywood;
         font-size: larger;
         font-weight: 600;
         padding: 12px;
         margin-bottom: 10px;
         border-radius: 15px;
-        background-color: rgb(51, 79, 136);
+        background-color: whitesmoke;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -149,7 +149,7 @@ a:hover {
 
     .h-zhra {
         font-size:medium;
-        background-color: rgba(247, 11, 148, 0.712);
+        background-color: rgba(201, 81, 151, 0.712);
         width: 60%;
     }
 
@@ -166,8 +166,9 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    background-color: rgba(18, 112, 150, 0.507);
+    background-color: rgba(22, 146, 196, 0.507);
     ;
+
 
 
 
