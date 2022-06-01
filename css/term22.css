@@ -12,11 +12,12 @@
 
 body {
 
-    background: #EB5757;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #eb5757ec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
-
+  
 }
 
 body {
@@ -51,21 +52,21 @@ body {
 
 .h-zhra {
     font-size: larger;
-    background-color: rgba(247, 11, 148, 0.712);
+    background-color: rgba(201, 81, 151, 0.712);
     width: 30%;
 }
 
 span {
     display: block;
 
-    color:white;
+    color:#000000;
     border: 3px solid burlywood;
     font-size: larger;
-    font-weight: 600;
+    font-weight:bold;
     padding: 12px;
     margin-bottom: 10px;
     border-radius: 15px;
-    background-color: rgb(51, 79, 136);
+    background-color: whitesmoke;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
@@ -89,7 +90,7 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    background-color: rgba(20, 70, 90, 0.507);
+    background-color: rgba(22, 146, 196, 0.507);
     ;
 
 
@@ -97,29 +98,29 @@ h4 {
 
 a{
 
-color: white;
+color: black;
 font-size: large;
 font-weight: 400;
-border: 2px solid gold;
-background-color: rgb(4, 112, 112);
-padding: 8px 12px;
-border-radius: 15px;
+border: 2px solid rgb(255, 0, 0);
+background-color: rgb(255, 253, 125);
+padding: 10px 12px;
+border-radius: 25px  5PX 25PX 5PX ;
 display: block;
-width: 20%;
+width: 30%;
 margin: 10px auto;
-animation: 1.5s;
-
+animation: 2.5s;
+font-weight: bold;
 }
 
 
 
 a:hover {
 
-    background-color: #29abdf;
-    color: black;
+    background-color: #ff543d;
+    color: white;
     font-weight: 900;
-    width: 20%;
-    border: 2px solid rgba(247, 11, 148, 0.712);
+    width: 32%;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 
@@ -128,14 +129,14 @@ a:hover {
     span {
         display: block;
     
-        color:white;
+        color:black;
         border: 4px solid burlywood;
         font-size: larger;
         font-weight: 600;
         padding: 12px;
         margin-bottom: 10px;
         border-radius: 15px;
-        background-color: rgb(51, 79, 136);
+        background-color: whitesmoke;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -148,7 +149,7 @@ a:hover {
 
     .h-zhra {
         font-size:medium;
-        background-color: rgba(247, 11, 148, 0.712);
+        background-color: rgba(201, 81, 151, 0.712);
         width: 60%;
     }
 
@@ -165,23 +166,42 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    background-color: rgba(20, 70, 90, 0.507);
+    background-color: rgba(22, 146, 196, 0.507);
     ;
 
 
 
-}
-a:hover {
 
-    background-color: #29abdf;
-    color: black;
-    font-weight: 900;
-    width: 50%;
-    border: 2px solid rgba(247, 11, 148, 0.712);
 }
-
 
 a{
-    width: 55%;
+
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    border: 2px solid gold;
+    background-color: rgb(255, 253, 125);
+    padding: 10px 12px;
+    border-radius: 25px  5PX 25PX 5PX ;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    animation: 2.5s;
+    font-weight: bold;
+    }
+a:hover {
+
+    background-color: #fd362f;
+    color: white;
+    font-weight: 600;
+    width: 80%;
+    border: 3px solid rgba(0, 0, 0, 0.938);
 }
+
+
+
+
+
+
+
 }
