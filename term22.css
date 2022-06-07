@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+
+}
+
+
+body {
+
+   
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  
+}
+
+body {
+
+    border: 2ps solid black;
+    border-radius: 20px;
+
+
+    display: block;
+    align-items: center;
+
+}
+
+.div-pdf {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 3px solid red; */
+    margin-bottom: 50px;
+    padding: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 3px 3px 4px 5px rgba(217, 221, 184, 0.815);
+    border-radius: 20px;
+    margin-top: 20px;
+
+
+
+}
+
+.h-zhra {
+    font-size: larger;
+    background-color: rgba(201, 81, 151, 0.712);
+    width: 30%;
+}
+
+span {
+    display: block;
+
+    color:#000000;
+    border: 3px solid burlywood;
+    font-size: larger;
+    font-weight:bold;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+
+
+
+h4 {
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    border: 4px solid khaki;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 45%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgba(22, 146, 196, 0.507);
+    ;
+
+
+}
+
+a{
+
+color: black;
+font-size: large;
+font-weight: 400;
+border: 2px solid rgb(255, 0, 0);
+background-color: rgb(255, 253, 125);
+padding: 10px 12px;
+border-radius: 25px  5PX 25PX 5PX ;
+display: block;
+width: 30%;
+margin: 10px auto;
+animation: 2.5s;
+font-weight: bold;
+}
+
+
+
+a:hover {
+
+    background-color: #ff543d;
+    color: white;
+    font-weight: 900;
+    width: 32%;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width:450px) {
+
+    span {
+        display: block;
+    
+        color:black;
+        border: 4px solid burlywood;
+        font-size: larger;
+        font-weight: 600;
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    }
+    .div-pdf{
+        width: 90%;
+    }
+
+    .h-zhra {
+        font-size:medium;
+        background-color: rgba(201, 81, 151, 0.712);
+        width: 60%;
+    }
+
+    
+h4 {
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border: 4px solid khaki;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 95%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgba(22, 146, 196, 0.507);
+    ;
+
+
+
+
+}
+
+a{
+
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    border: 2px solid gold;
+    background-color: rgb(255, 253, 125);
+    padding: 10px 12px;
+    border-radius: 25px  5PX 25PX 5PX ;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    animation: 2.5s;
+    font-weight: bold;
+    }
+a:hover {
+
+    background-color: #fd362f;
+    color: white;
+    font-weight: 600;
+    width: 80%;
+    border: 3px solid rgba(0, 0, 0, 0.938);
+}
+
+
+
+
+
+
+
+}
